@@ -1,0 +1,43 @@
+.PostForm {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.PostForm i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+form {
+  background-color: #79c5e8;
+  width: 50%;
+  font-family: dosis;
+}
+
+label {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+textarea {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.addPost {
+  height: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
